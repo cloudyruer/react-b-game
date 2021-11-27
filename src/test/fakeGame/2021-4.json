@@ -1,0 +1,87 @@
+{
+  "success": "true",
+  "error": "",
+  "code": 200,
+  "result": [
+    {
+      "gameId": 17,
+      "date": "2021-04-13",
+      "time": "15:30",
+      "location": "桃園市立綜合體育館",
+      "team": [
+        {
+          "teamId": 3,
+          "teamLogo": "logo3.png",
+          "teamName": "新竹街口攻城獅",
+          "score": 112
+        },
+        {
+          "teamId": 4,
+          "teamLogo": "logo4.png",
+          "teamName": "臺北富邦勇士",
+          "score": 105
+        }
+      ]
+    },
+    {
+      "gameId": 18,
+      "date": "2021-04-14",
+      "time": "16:30",
+      "location": "桃園市立綜合體育館",
+      "team": [
+        {
+          "teamId": 1,
+          "teamLogo": "logo1.png",
+          "teamName": "桃園領航猿",
+          "score": 80
+        },
+        {
+          "teamId": 2,
+          "teamLogo": "logo2.png",
+          "teamName": "福爾摩沙台新夢想家",
+          "score": 95
+        }
+      ]
+    },
+    {
+      "gameId": 19,
+      "date": "2021-04-13",
+      "time": "17:30",
+      "location": "桃園市立綜合體育館",
+      "team": [
+        {
+          "teamId": 1,
+          "teamLogo": "logo1.png",
+          "teamName": "桃園領航猿",
+          "score": 96
+        },
+        {
+          "teamId": 4,
+          "teamLogo": "logo4.png",
+          "teamName": "臺北富邦勇士",
+          "score": 110
+        }
+      ]
+    },
+    {
+      "gameId": 20,
+      "date": "2021-04-26",
+      "time": "18:30",
+      "location": "桃園市立綜合體育館",
+      "team": [
+        {
+          "teamId": 3,
+          "teamLogo": "logo3.png",
+          "teamName": "新竹街口攻城獅",
+          "score": 120
+        },
+        {
+          "teamId": 2,
+          "teamLogo": "logo2.png",
+          "teamName": "福爾摩沙台新夢想家",
+          "score": 95
+        }
+      ]
+    }
+  ]
+}

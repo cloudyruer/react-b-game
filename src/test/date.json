@@ -1,0 +1,39 @@
+{
+  "success": "true",
+  "error": "",
+  "code": 200,
+  "result": [
+    {
+      "date": "2020-12",
+      "hasGame": true
+    },
+    {
+      "date": "2021-1",
+      "hasGame": true
+    },
+    {
+      "date": "2021-2",
+      "hasGame": true
+    },
+    {
+      "date": "2021-3",
+      "hasGame": true
+    },
+    {
+      "date": "2021-4",
+      "hasGame": true
+    },
+    {
+      "date": "2021-5",
+      "hasGame": true
+    },
+    {
+      "date": "2021-6",
+      "hasGame": true
+    },
+    {
+      "date": "2021-7",
+      "hasGame": true
+    }
+  ]
+}

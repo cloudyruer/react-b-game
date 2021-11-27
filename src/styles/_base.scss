@@ -1,0 +1,62 @@
+:root {
+  --color-gray: #2f3140;
+  --color-light-gray: #e8e8e8;
+
+  --color-purple: #371f4f;
+  --color-light-purple: #71279e;
+
+  --btn-gray: #393b4f;
+  --btn-light-gray: #6f739c;
+
+  --btn-red: #94263c;
+  --btn-light-red: #c73552;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+// RWD breakpoint
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == sm {
+    // 576 px
+    @media only screen and (min-width: $bp-sm) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == md {
+    // 768 px
+    @media only screen and (min-width: $bp-md) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == lg {
+    // 992 px
+    @media only screen and (min-width: $bp-lg) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == xl {
+    // 1200 px
+    @media only screen and (min-width: $bp-xl) {
+      @content;
+    }
+  }
+}
