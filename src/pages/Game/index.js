@@ -47,8 +47,8 @@ const Game = () => {
       <Banner />
       <GameInfo />
 
-      <GameWrap>{renderedGameDate}</GameWrap>
-      <GameWrap>{renderedGameCard}</GameWrap>
+      <GameWrap scrollBack={false}>{renderedGameDate}</GameWrap>
+      <GameWrap scrollBack={true}>{renderedGameCard}</GameWrap>
     </Container>
   )
 }

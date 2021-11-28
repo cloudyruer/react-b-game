@@ -6,8 +6,18 @@ import 'moment/locale/zh-tw'
 const GameCard = ({ v }) => {
   const { gameId, date, time, location, team } = v
 
-  const btnClickHandler = (e) =>
-    alert(JSON.stringify({ gameId, date, time }, null, 4))
+  const btnClickHandler = (e) => {
+    // NOTE
+    // 根據情境: 每個賽程表，有兩個連結
+    // 但因為沒有實作該兩頁面 因此阻止預設行為 避免被換頁 推history
+    // 但也因此URL不會改變!!
+    const note =
+      '根據情境:每個賽程表有兩個連結。由於尚未有該兩連結的頁面，因此阻止預設行為(preventDefault)，但也因此URL不會改變'
+
+    e.preventDefault()
+
+    alert(JSON.stringify({ gameId, date, time, NOTE: note }, null, 4))
+  }
 
   moment.locale()
   const dateAndDay = moment(date).format('M[月]D[日][ (]dd[) ]')
@@ -42,10 +52,18 @@ const GameCard = ({ v }) => {
       </div>
 
       <div className="game-card__sb game-card__sb--px0">
-        <Link to="/" className="btn">
+        <Link
+          to={'/detail/' + gameId}
+          className="btn"
+          onClick={btnClickHandler}
+        >
           查看詳情
         </Link>
-        <Link to="/" className="btn btn--purchase" onClick={btnClickHandler}>
+        <Link
+          to={'/purchase/' + gameId}
+          className="btn btn--purchase"
+          onClick={btnClickHandler}
+        >
           購票
         </Link>
       </div>

@@ -7,7 +7,7 @@
       "gameId": 5,
       "date": "2021-01-13",
       "time": "15:30",
-      "location": "桃園市立綜合體育館",
+      "location": "臺北和平籃球館",
       "team": [
         {
           "teamId": 1,
@@ -27,7 +27,7 @@
       "gameId": 6,
       "date": "2021-01-17",
       "time": "16:30",
-      "location": "桃園市立綜合體育館",
+      "location": "新北市立新莊體育館",
       "team": [
         {
           "teamId": 3,
@@ -67,7 +67,7 @@
       "gameId": 8,
       "date": "2021-01-28",
       "time": "18:30",
-      "location": "桃園市立綜合體育館",
+      "location": "新北市立新莊體育館",
       "team": [
         {
           "teamId": 3,

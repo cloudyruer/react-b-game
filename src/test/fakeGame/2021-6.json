@@ -33,13 +33,13 @@
           "teamId": 1,
           "teamLogo": "logo1.png",
           "teamName": "桃園領航猿",
-          "score": 80
+          "score": 96
         },
         {
-          "teamId": 2,
-          "teamLogo": "logo2.png",
-          "teamName": "福爾摩沙台新夢想家",
-          "score": 95
+          "teamId": 4,
+          "teamLogo": "logo4.png",
+          "teamName": "臺北富邦勇士",
+          "score": 110
         }
       ]
     },
@@ -50,16 +50,16 @@
       "location": "桃園市立綜合體育館",
       "team": [
         {
-          "teamId": 1,
-          "teamLogo": "logo1.png",
-          "teamName": "桃園領航猿",
-          "score": 96
+          "teamId": 3,
+          "teamLogo": "logo3.png",
+          "teamName": "新竹街口攻城獅",
+          "score": 112
         },
         {
           "teamId": 4,
           "teamLogo": "logo4.png",
           "teamName": "臺北富邦勇士",
-          "score": 110
+          "score": 105
         }
       ]
     },

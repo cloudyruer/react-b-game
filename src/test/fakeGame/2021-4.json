@@ -27,19 +27,19 @@
       "gameId": 18,
       "date": "2021-04-14",
       "time": "16:30",
-      "location": "桃園市立綜合體育館",
+      "location": "新北市立新莊體育館",
       "team": [
         {
           "teamId": 1,
           "teamLogo": "logo1.png",
           "teamName": "桃園領航猿",
-          "score": 80
+          "score": 96
         },
         {
           "teamId": 2,
           "teamLogo": "logo2.png",
           "teamName": "福爾摩沙台新夢想家",
-          "score": 95
+          "score": 145
         }
       ]
     },
@@ -67,7 +67,7 @@
       "gameId": 20,
       "date": "2021-04-26",
       "time": "18:30",
-      "location": "桃園市立綜合體育館",
+      "location": "新北市立新莊體育館",
       "team": [
         {
           "teamId": 3,
