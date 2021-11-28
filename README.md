@@ -18,4 +18,6 @@ yarn install
 yarn start
 ```
 
-##
+## Demo Link (Netlify)
+
+https://joey-react-b-game.netlify.app
